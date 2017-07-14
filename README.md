@@ -10,22 +10,22 @@ git clone https://github.com/abalajoe/bankaccount
 
 For UNIX based users, open the terminal, navigate to the run folder inside the project folder. Next, make the start script executable by executing the below command:
 
-sudo chmod +x startup.sh
+    sudo chmod +x startup.sh
 
 Now you can run the program by executing the below command:
 
-sudo ./startup.sh
+    sudo ./startup.sh
 
 Alternatively (without using startup.sh), open the terminal, navigate to the run folder and execute the below commands:
 
-java -Dlog4j.configuration=file:"log4j.properties" -Dbankaccount.config="config.properties" -jar bankaccount.jar
+    java -Dlog4j.configuration=file:"log4j.properties" -Dbankaccount.config="config.properties" -jar bankaccount.jar
 
 For windows based users, navigate to the run folder, open the startup.bat file and edit the Java path to suit your computer's Java path. Next, open the command prompt, navigate to the run folder and execute the below command:
 
-startup.bat
+    startup.bat
 
-NB: You must have Java installed in your computer to run the application.
-NB: You must have internet connection (Datasource is on cloud).
+NB: You must have Java installed on your computer and internet connection (Datasource is on cloud) to run the application.
+
 
 ## License
 
