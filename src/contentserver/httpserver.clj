@@ -14,7 +14,7 @@
         [compojure.core :only [defroutes GET POST DELETE ANY context]]))
 
 (defn initialize-http
-  "Function defines server once"
+  "Define server once"
   []
   (defonce server (atom nil))
   (log/info "initializing http server ..."))
@@ -208,7 +208,7 @@
   (wrap-defaults all-routes (assoc-in site-defaults [:security :anti-forgery] false)))
 
 (defn start-server
-  "Starts server"
+  "Start server"
   []
   (try
     (do

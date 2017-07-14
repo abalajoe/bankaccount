@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: pg-hstore:3.0.3">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/pg-hstore/pg-hstore/3.0.3/pg-hstore-3.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -12,7 +12,7 @@
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/target/base+system+user+dev" />
     </content>
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Leiningen: c3p0:0.9.1.2" level="project" />
     <orderEntry type="library" name="Leiningen: cheshire:5.4.0" level="project" />
@@ -47,6 +47,7 @@
     <orderEntry type="library" name="Leiningen: crypto-equality:1.0.0" level="project" />
     <orderEntry type="library" name="Leiningen: crypto-random:1.2.0" level="project" />
     <orderEntry type="library" name="Leiningen: dynapath:0.2.0" level="project" />
+    <orderEntry type="library" name="Leiningen: environ:1.0.0" level="project" />
     <orderEntry type="library" name="Leiningen: gui-diff:0.5.0" level="project" />
     <orderEntry type="library" name="Leiningen: hiccup:1.0.5" level="project" />
     <orderEntry type="library" name="Leiningen: http-kit:2.1.18" level="project" />
@@ -55,6 +56,7 @@
     <orderEntry type="library" name="Leiningen: korma:0.4.0" level="project" />
     <orderEntry type="library" name="Leiningen: lib-noir:0.9.4" level="project" />
     <orderEntry type="library" name="Leiningen: log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Leiningen: markdown-clj:0.9.64" level="project" />
     <orderEntry type="library" name="Leiningen: midje:1.6.3" level="project" />
     <orderEntry type="library" name="Leiningen: net.cgrand/parsley:0.9.1" level="project" />
     <orderEntry type="library" name="Leiningen: net.cgrand/regex:1.1.0" level="project" />
@@ -95,6 +97,7 @@
     <orderEntry type="library" name="Leiningen: org.slf4j/slf4j-api:1.6.4" level="project" />
     <orderEntry type="library" name="Leiningen: org.slf4j/slf4j-log4j12:1.6.4" level="project" />
     <orderEntry type="library" name="Leiningen: org.yaml/snakeyaml:1.5" level="project" />
+    <orderEntry type="library" name="Leiningen: pg-hstore:3.0.3" level="project" />
     <orderEntry type="library" name="Leiningen: potemkin:0.3.8" level="project" />
     <orderEntry type="library" name="Leiningen: propertea:1.2.3" level="project" />
     <orderEntry type="library" name="Leiningen: riddley:0.1.7" level="project" />
@@ -111,6 +114,7 @@
     <orderEntry type="library" name="Leiningen: ring/ring-session-timeout:0.1.0" level="project" />
     <orderEntry type="library" name="Leiningen: ring/ring-ssl:0.2.1" level="project" />
     <orderEntry type="library" name="Leiningen: ring:1.3.0" level="project" />
+    <orderEntry type="library" name="Leiningen: selmer:0.8.0" level="project" />
     <orderEntry type="library" name="Leiningen: slingshot:0.10.3" level="project" />
     <orderEntry type="library" name="Leiningen: swiss-arrows:1.0.0" level="project" />
     <orderEntry type="library" name="Leiningen: tigris:0.1.1" level="project" />
