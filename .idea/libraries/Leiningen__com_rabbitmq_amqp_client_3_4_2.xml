@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: com.rabbitmq/amqp-client:3.4.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/rabbitmq/amqp-client/3.4.2/amqp-client-3.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
