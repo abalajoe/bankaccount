@@ -1,4 +1,8 @@
 (ns contentserver.core-test
+  ^{:author "jabala"
+    :doc "Bank Account API tests"
+    :added "1.0"
+    }
   (:use midje.sweet)
   (:require [clojure.test :refer :all]
             [contentserver.core :refer :all]
@@ -8,7 +12,7 @@
             [clojure.data.json :as json]
             [contentserver.model.datasource :as db]))
 
-(facts "Bank Account testing"
+(facts "General Account testing"
        (fact "Default route"
              (let [response (httpserver/app (mock/request
                                               :get "/"
@@ -70,7 +74,7 @@
                (:status response) => 422
                (:headers response) => {"Content-Type" "application/json; charset=utf-8", "X-Content-Type-Options" "nosniff", "X-Frame-Options" "SAMEORIGIN", "X-XSS-Protection" "1; mode=block"}
                (:body response) => (json/write-str {:status-code -2 :status-msg "Invalid Amount"})))
-       (fact "Max Daily Deposit"
+       (fact "Max Daily Withdrawal"
              (let [response (httpserver/app (mock/request
                                               :post "/withdraw"
                                               {:withdraw "50000"}))] ;
